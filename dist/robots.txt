@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ranjithautocables.com/sitemap.xml
