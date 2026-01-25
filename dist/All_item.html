@@ -13,25 +13,18 @@
         rel="stylesheet" />
     <script id="tailwind-config">
         tailwind.config = {
+            darkMode: "class",
             theme: {
                 extend: {
                     colors: {
                         "primary": "#1349ec",
-                        "background-light": "#ffffff",
-                        "surface-light": "#f8fafc",
-                        "border-light": "#e2e8f0",
-                        "text-main": "#0f172a",
-                        "text-muted": "#64748b",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101522",
                     },
                     fontFamily: {
                         "display": ["Public Sans", "sans-serif"]
                     },
-                    borderRadius: {
-                        "DEFAULT": "0.25rem",
-                        "lg": "0.5rem",
-                        "xl": "0.75rem",
-                        "full": "9999px"
-                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
                 },
             },
         }
@@ -51,6 +44,59 @@
 
 <body class="bg-background-light text-text-main min-h-screen">
     <header
+        class="sticky top-0 z-50 bg-white dark:bg-background-dark border-b border-solid border-gray-200 dark:border-gray-800 px-6 lg:px-40 py-3 shadow-sm">
+        <div class="flex items-center justify-between whitespace-nowrap">
+            <div class="flex items-center gap-8">
+                <div class="flex items-center gap-3 text-[#111318] dark:text-white">
+                    <div class="size-8 bg-primary rounded flex items-center justify-center text-white">
+                        <span class="material-symbols-outlined">settings_input_component</span>
+                    </div>
+                    <h2 class="text-xl font-bold leading-tight tracking-tight">HydraulicPro</h2>
+                </div>
+                <nav class="hidden lg:flex items-center gap-8">
+                    <a class="text-[#111318] dark:text-white text-sm font-semibold hover:text-primary transition-colors"
+                        href="index.html">Home</a>
+                    <a class="text-[#111318] dark:text-white text-sm font-semibold hover:text-primary transition-colors"
+                        href="About_us.html">About</a>
+                    <div class="group relative py-2">
+                        <button
+                            class="text-[#111318] dark:text-white text-sm font-semibold flex items-center gap-1 group-hover:text-primary">
+                            Products <span class="material-symbols-outlined text-xs">expand_more</span>
+                        </button>
+                        <div
+                            class="absolute top-full left-0 w-48 bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 shadow-xl rounded-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+                            <a class="block px-4 py-2 text-sm hover:bg-gray-50 dark:hover:bg-gray-800"
+                                href="#">Hydraulic Hoses</a>
+                            <a class="block px-4 py-2 text-sm hover:bg-gray-50 dark:hover:bg-gray-800"
+                                href="#">Industrial Fittings</a>
+                            <a class="block px-4 py-2 text-sm hover:bg-gray-50 dark:hover:bg-gray-800" href="#">Adapters
+                                &amp; Couplers</a>
+                        </div>
+                    </div>
+                    <a class="text-[#111318] dark:text-white text-sm font-semibold hover:text-primary transition-colors"
+                        href="Contact_us.html">Contact Us</a>
+                    <a class="text-[#111318] dark:text-white text-sm font-semibold hover:text-primary transition-colors"
+                        href="Single_item.html">Product</a>
+                    <a class="text-[#111318] dark:text-white text-sm font-semibold hover:text-primary transition-colors"
+                        href="All_item.html">All Products</a>
+                </nav>
+            </div>
+            <div class="flex items-center gap-6">
+                <div class="hidden md:flex items-center bg-gray-100 dark:bg-gray-800 rounded-lg px-3 py-1.5 w-64">
+                    <span class="material-symbols-outlined text-gray-400 text-lg">search</span>
+                    <input class="bg-transparent border-none focus:ring-0 text-sm w-full placeholder:text-gray-500"
+                        placeholder="Search Part # or SKU" type="text" />
+                </div>
+                <button
+                onclick="location.href='Contact_us.html'"
+                    class="bg-primary text-white text-sm font-bold px-5 py-2 rounded-lg hover:bg-primary/90 transition-all flex items-center gap-2">
+                    <span class="material-symbols-outlined text-sm">phone_in_talk</span>
+                    Contact Us
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- <header
         class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-border-light px-4 md:px-10 lg:px-40 py-3">
         <div class="flex items-center justify-between whitespace-nowrap max-w-[1200px] mx-auto">
             <div class="flex items-center gap-8">
@@ -94,7 +140,7 @@
                 </button>
             </div>
         </div>
-    </header>
+    </header> -->
     <main class="max-w-[1200px] mx-auto px-4 md:px-10 lg:px-40 py-12">
         <div class="flex flex-col gap-3 mb-10">
             <h1 class="text-primary text-4xl font-black leading-tight tracking-[-0.033em]">Technical Video Library</h1>
