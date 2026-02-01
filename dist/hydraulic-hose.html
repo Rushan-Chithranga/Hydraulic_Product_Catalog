@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>RAC ITALY | Hydraulic Hose Showcase</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1349ec",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101522",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Public Sans', sans-serif;
+        }
+
+        .material-symbols-outlined {
+            font-size: 24px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-[#111318] dark:text-white transition-colors duration-200">
+    <!-- Top Navigation Bar -->
+   <header
+        class="sticky top-0 z-50 bg-white dark:bg-background-dark border-b border-solid border-gray-200 dark:border-gray-800 px-6 lg:px-40 py-3 shadow-sm">
+        <div class="flex items-center justify-between whitespace-nowrap">
+            <div class="flex items-center gap-8">
+                <div class="flex items-center gap-3 text-[#111318] dark:text-white">
+                    <div class="size-8 bg-primary rounded flex items-center justify-center text-white">
+                        <span class="material-symbols-outlined">settings_input_component</span>
+                    </div>
+                    <h2 class="text-xl font-bold leading-tight tracking-tight">RAC</h2>
+                </div>
+                <nav class="hidden lg:flex items-center gap-8">
+                    <a class="text-[#111318] dark:text-white text-sm font-semibold hover:text-primary transition-colors"
+                        href="index.html">Home</a>
+                    <a class="text-[#111318] dark:text-white text-sm font-semibold hover:text-primary transition-colors"
+                        href="About_us.html">About</a>
+                    <div class="group relative py-2">
+                        <button
+                            class="text-[#111318] dark:text-white text-sm font-semibold flex items-center gap-1 group-hover:text-primary">
+                            Products <span class="material-symbols-outlined text-xs">expand_more</span>
+                        </button>
+                        <div
+                            class="absolute top-full left-0 w-48 bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 shadow-xl rounded-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+                            <a class="block px-4 py-2 text-sm hover:bg-gray-50 dark:hover:bg-gray-800"
+                                href="cables.html">Cables</a>
+                            <a class="block px-4 py-2 text-sm hover:bg-gray-50 dark:hover:bg-gray-800"
+                                href="filters.html">Filters</a>
+                            <a class="block px-4 py-2 text-sm hover:bg-gray-50 dark:hover:bg-gray-800"
+                                href="hydraulic-hose.html">Hydraulic Hose</a>
+                        </div>
+                    </div>
+                    <a class="text-[#111318] dark:text-white text-sm font-semibold hover:text-primary transition-colors"
+                        href="Contact_us.html">Contact Us</a>
+
+                </nav>
+            </div>
+            <div class="flex items-center gap-6">
+                <div class="hidden md:flex items-center bg-gray-100 dark:bg-gray-800 rounded-lg px-3 py-1.5 w-64">
+                    <span class="material-symbols-outlined text-gray-400 text-lg">search</span>
+                    <input class="bg-transparent border-none focus:ring-0 text-sm w-full placeholder:text-gray-500"
+                        placeholder="Search Part # or SKU" type="text" />
+                </div>
+                <button onclick="location.href='Contact_us.html'"
+                    class="bg-primary text-white text-sm font-bold px-5 py-2 rounded-lg hover:bg-primary/90 transition-all flex items-center gap-2">
+                    <span class="material-symbols-outlined text-sm">phone_in_talk</span>
+                    Contact Us
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="max-w-[1280px] mx-auto">
+        <!-- Hero Section -->
+        <section class="px-4 md:px-10 py-10">
+            <div
+                class="bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-sm border border-gray-100 dark:border-gray-800">
+                <div class="flex flex-col lg:flex-row min-h-[500px]">
+                    <div class="flex flex-col justify-center gap-6 p-10 lg:w-1/2">
+                        <div
+                            class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider">
+                            <span class="material-symbols-outlined text-sm">verified</span>
+                            Premium Industrial Quality
+                        </div>
+                        <h1
+                            class="text-[#111318] dark:text-white text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-tighter">
+                            RAC ITALY: Engineering Excellence
+                        </h1>
+                        <p class="text-[#616b89] dark:text-gray-400 text-lg md:text-xl font-normal leading-relaxed">
+                            Wholesale &amp; Retail - Premium Quality Hoses for High-Pressure Applications. Built for
+                            extreme durability and certified to international standards.
+                        </p>
+                        <div class="flex flex-wrap gap-4 mt-4">
+                            <button
+                                class="flex min-w-[160px] items-center justify-center rounded-lg h-14 px-8 bg-primary text-white text-base font-bold shadow-lg shadow-primary/20 hover:scale-105 transition-transform">
+                                <span>View Full Catalog</span>
+                            </button>
+                            <button
+                                class="flex min-w-[160px] items-center justify-center rounded-lg h-14 px-8 bg-[#f0f1f4] dark:bg-gray-800 text-[#111318] dark:text-white text-base font-bold hover:bg-gray-200 dark:hover:bg-gray-700 transition-all">
+                                <span>Request Quote</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2 bg-center bg-no-repeat bg-cover"
+                        data-alt="Industrial high pressure hydraulic hose coils in a warehouse"
+                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDtfD6S1Ms7D_jd8MWR6R4aume9KcbOLBa2SIMYJbAX0aIVIZ9Ia_HevNVo73EjfWHHAYcWuf7JB-h5fSs5QY1SPbg5yU4smuHGGZ3Zr0P4NL9mBDh3LQ0ohKzmI9kODgHM_LKt1kDUGnYmGVTz3lE_zW-fMPlKtsL8JKHpeizPvclcIvXRie7ivkkvVqHoWmz3zEj_IvqDZBhDufUGjDXCqo4ctjTDIxovgvMLG6lZj_v8WFnwrE1DpItqOV5igerRntL_sf1yvPY");'>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Stats/Features Bar -->
+        <section class="px-4 md:px-10 grid grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
+            <div
+                class="bg-white dark:bg-gray-900 p-6 rounded-xl border border-gray-100 dark:border-gray-800 flex items-center gap-4">
+                <span class="material-symbols-outlined text-primary text-3xl">settings_input_component</span>
+                <div>
+                    <p class="text-2xl font-bold dark:text-white">5000+</p>
+                    <p class="text-xs text-[#616b89] uppercase font-bold tracking-widest">Products in Stock</p>
+                </div>
+            </div>
+            <div
+                class="bg-white dark:bg-gray-900 p-6 rounded-xl border border-gray-100 dark:border-gray-800 flex items-center gap-4">
+                <span class="material-symbols-outlined text-primary text-3xl">public</span>
+                <div>
+                    <p class="text-2xl font-bold dark:text-white">ISO 9001</p>
+                    <p class="text-xs text-[#616b89] uppercase font-bold tracking-widest">Certified Standards</p>
+                </div>
+            </div>
+            <div
+                class="bg-white dark:bg-gray-900 p-6 rounded-xl border border-gray-100 dark:border-gray-800 flex items-center gap-4">
+                <span class="material-symbols-outlined text-primary text-3xl">speed</span>
+                <div>
+                    <p class="text-2xl font-bold dark:text-white">700 BAR</p>
+                    <p class="text-xs text-[#616b89] uppercase font-bold tracking-widest">Max Pressure Range</p>
+                </div>
+            </div>
+            <div
+                class="bg-white dark:bg-gray-900 p-6 rounded-xl border border-gray-100 dark:border-gray-800 flex items-center gap-4">
+                <span class="material-symbols-outlined text-primary text-3xl">schedule</span>
+                <div>
+                    <p class="text-2xl font-bold dark:text-white">24/7</p>
+                    <p class="text-xs text-[#616b89] uppercase font-bold tracking-widest">Emergency Repair</p>
+                </div>
+            </div>
+        </section>
+        <!-- Catalog Tabs & Header -->
+        <section class="px-4 md:px-10 pb-8">
+            <div
+                class="flex flex-col md:flex-row md:items-end justify-between border-b border-[#dbdee6] dark:border-gray-800 mb-8">
+                <div class="pb-4">
+                    <h2 class="text-3xl font-black text-[#111318] dark:text-white">Premium Hydraulic Hose Range</h2>
+                    <p class="text-[#616b89] dark:text-gray-400 mt-1">Select a category to view technical specifications
+                    </p>
+                </div>
+                <div class="flex gap-8 overflow-x-auto no-scrollbar">
+                    <a class="flex flex-col items-center justify-center border-b-[3px] border-primary text-primary pb-4 px-2"
+                        href="#">
+                        <p class="text-sm font-bold whitespace-nowrap">All Hoses</p>
+                    </a>
+                    <a class="flex flex-col items-center justify-center border-b-[3px] border-transparent text-[#616b89] hover:text-primary pb-4 px-2 transition-colors"
+                        href="#">
+                        <p class="text-sm font-bold whitespace-nowrap">Wire Braided</p>
+                    </a>
+                    <a class="flex flex-col items-center justify-center border-b-[3px] border-transparent text-[#616b89] hover:text-primary pb-4 px-2 transition-colors"
+                        href="#">
+                        <p class="text-sm font-bold whitespace-nowrap">Multi-spiral</p>
+                    </a>
+                    <a class="flex flex-col items-center justify-center border-b-[3px] border-transparent text-[#616b89] hover:text-primary pb-4 px-2 transition-colors"
+                        href="#">
+                        <p class="text-sm font-bold whitespace-nowrap">Thermoplastic</p>
+                    </a>
+                </div>
+            </div>
+            <!-- Product Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Product Card 1 -->
+                <div
+                    class="group bg-white dark:bg-gray-900 rounded-xl overflow-hidden border border-gray-100 dark:border-gray-800 hover:shadow-xl transition-all">
+                    <div class="h-56 bg-center bg-cover bg-no-repeat relative"
+                        data-alt="Close up of a 2SN steel wire braided hydraulic hose end"
+                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCbOO2rwHYJvqgyfMjIzuLsuEmoIC0WxHrgw0Rj73jEW1K9oOjT5Xp1SV8-x5dtDBFGz-hGZceOeTdu07EssUBlYLu1vpypcHv_wk9hJiJAapdpzS4ftB9ghRfdMejI6mTy5w1KYmhAFzbAG7HafYxoM13O2XfTNWUaOuF_yUZKs948ZuIu0wIkHKWX35q_5UWIhx0LHon7UsvEL7ohoDjF6QPVFty9pxsh55Jm5VGme8BpLr7I9uclKVzUjSr_exSCBggwQuTvA2c");'>
+                        <div
+                            class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded text-xs font-bold text-primary">
+                            IN STOCK</div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold dark:text-white">2SN Steel Wire Braided</h3>
+                            <span class="text-xs font-bold text-[#616b89] dark:text-gray-500">EN 853 2SN</span>
+                        </div>
+                        <p class="text-sm text-[#616b89] dark:text-gray-400 mb-4">High-pressure hydraulic applications
+                            for mineral and biological oils.</p>
+                        <div
+                            class="grid grid-cols-2 gap-y-3 gap-x-2 py-4 border-y border-gray-100 dark:border-gray-800 mb-4">
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-sm">compress</span>
+                                <span class="text-xs dark:text-gray-300 font-medium">400 Bar (W.P)</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-sm">thermostat</span>
+                                <span class="text-xs dark:text-gray-300 font-medium">-40°C to +100°C</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-sm">straighten</span>
+                                <span class="text-xs dark:text-gray-300 font-medium">1/4" to 2" I.D.</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-sm">layers</span>
+                                <span class="text-xs dark:text-gray-300 font-medium">Double Wire Braid</span>
+                            </div>
+                        </div>
+                        <button
+                            class="w-full h-11 border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold rounded-lg transition-colors flex items-center justify-center gap-2">
+                            <span>View Specs</span>
+                            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                        </button>
+                    </div>
+                </div>
+                <!-- Product Card 2 -->
+                <div
+                    class="group bg-white dark:bg-gray-900 rounded-xl overflow-hidden border border-gray-100 dark:border-gray-800 hover:shadow-xl transition-all">
+                    <div class="h-56 bg-center bg-cover bg-no-repeat relative"
+                        data-alt="Heavy duty multi-spiral hydraulic hose for extreme pressure"
+                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCqoJxl42DBm2HRN8dybmh7ytl45SHIkXMHg_x-GfBhN6bjzyqfkcQv6OvhaZGjRh9xANtjgjft9DEUdglqhihInviwMcP5pNpMCLdA-UbG-nClXM4s9bm7cpw4FM4mixuuf7PMJ_6Wm4l5M7yw_xG8ZwmiHCX28ulYoaFuepAvBwXLztsKoC32G5tv0IuA4XqJPTDOau8_CrhD1TFjjvztaMWYz_HRf6VI3LHvVAH7eM01PCHeF-fRNGWpUC7vZck6hAG2VqfZRMw");'>
+                        <div
+                            class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded text-xs font-bold text-primary">
+                            HEAVY DUTY</div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold dark:text-white">4SH Multi-spiral</h3>
+                            <span class="text-xs font-bold text-[#616b89] dark:text-gray-500">EN 856 4SH</span>
+                        </div>
+                        <p class="text-sm text-[#616b89] dark:text-gray-400 mb-4">Extreme high-pressure hose for
+                            hydrostatic transmissions and heavy machinery.</p>
+                        <div
+                            class="grid grid-cols-2 gap-y-3 gap-x-2 py-4 border-y border-gray-100 dark:border-gray-800 mb-4">
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-sm">compress</span>
+                                <span class="text-xs dark:text-gray-300 font-medium">700 Bar (W.P)</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-sm">thermostat</span>
+                                <span class="text-xs dark:text-gray-300 font-medium">-40°C to +125°C</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-sm">straighten</span>
+                                <span class="text-xs dark:text-gray-300 font-medium">3/4" to 2" I.D.</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-sm">layers</span>
+                                <span class="text-xs dark:text-gray-300 font-medium">4 High-tensile Spirals</span>
+                            </div>
+                        </div>
+                        <button
+                            class="w-full h-11 border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold rounded-lg transition-colors flex items-center justify-center gap-2">
+                            <span>View Specs</span>
+                            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                        </button>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div
+                    class="group bg-white dark:bg-gray-900 rounded-xl overflow-hidden border border-gray-100 dark:border-gray-800 hover:shadow-xl transition-all">
+                    <div class="h-56 bg-center bg-cover bg-no-repeat relative"
+                        data-alt="Lightweight thermoplastic hydraulic hose for industrial fluid transfer"
+                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBKwmeqmqclGmjU58QiounCINzxCj5lSXWwgPNYwJ6NNr0vt8Swx0qNgAnlk6fDvc72eWTAj4COcww4Jm6PebjURqUXdBcbj5vgiiaFA5q_y72KiogOKqGI973JOeHlhUTpA-KP3NmRX4Z2h1sUdjpDlBZkBt1cyeb9X3E7Inj4Pf7KQ2-T-W7PG2bz9E7RaHneFRhqOOA0f2I8voZ98Gu0pq8ze1UBOqu26jL6jBUGLDcGdYCEf76FfFlJb87prNkAHEh0LB304oE");'>
+                        <div
+                            class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded text-xs font-bold text-primary">
+                            FLEXIBLE</div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-bold dark:text-white">Thermoplastic R7</h3>
+                            <span class="text-xs font-bold text-[#616b89] dark:text-gray-500">SAE 100 R7</span>
+                        </div>
+                        <p class="text-sm text-[#616b89] dark:text-gray-400 mb-4">Lightweight and flexible hose for
+                            chemical and industrial fluid transfer.</p>
+                        <div
+                            class="grid grid-cols-2 gap-y-3 gap-x-2 py-4 border-y border-gray-100 dark:border-gray-800 mb-4">
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-sm">compress</span>
+                                <span class="text-xs dark:text-gray-300 font-medium">210 Bar (W.P)</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-sm">thermostat</span>
+                                <span class="text-xs dark:text-gray-300 font-medium">-40°C to +100°C</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-sm">straighten</span>
+                                <span class="text-xs dark:text-gray-300 font-medium">1/8" to 1" I.D.</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-primary text-sm">layers</span>
+                                <span class="text-xs dark:text-gray-300 font-medium">Fiber Reinforced</span>
+                            </div>
+                        </div>
+                        <button
+                            class="w-full h-11 border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold rounded-lg transition-colors flex items-center justify-center gap-2">
+                            <span>View Specs</span>
+                            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CTA Repair Service Section -->
+        <section class="px-4 md:px-10 py-16">
+            <div class="bg-primary rounded-2xl p-8 md:p-16 text-white text-center relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-r from-blue-900/50 to-transparent pointer-events-none">
+                </div>
+                <div class="relative z-10 max-w-[800px] mx-auto">
+                    <div class="flex justify-center mb-6">
+                        <div
+                            class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center">
+                            <span class="material-symbols-outlined text-4xl">home_repair_service</span>
+                        </div>
+                    </div>
+                    <h2 class="text-3xl md:text-5xl font-black mb-6 leading-tight">24/7 Hydraulic Hose Repair Service
+                    </h2>
+                    <p class="text-lg md:text-xl font-normal opacity-90 mb-10 leading-relaxed">
+                        All Hydraulic Hose Repair - Minimizing your downtime with professional on-site mobile units and
+                        in-shop express services. ISO certified techniques.
+                    </p>
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
+                        <button
+                            class="bg-white text-primary font-bold px-10 py-4 rounded-lg text-lg hover:bg-blue-50 transition-all flex items-center justify-center gap-3">
+                            <span class="material-symbols-outlined">call</span>
+                            Emergency Hot-Line
+                        </button>
+                        <button
+                            class="bg-blue-800/40 backdrop-blur-sm border border-white/30 text-white font-bold px-10 py-4 rounded-lg text-lg hover:bg-white/20 transition-all">
+                            Book Service Online
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Technical Standards Section -->
+        <section class="px-4 md:px-10 py-12 mb-10">
+            <div
+                class="bg-[#f0f1f4] dark:bg-gray-900/50 rounded-xl p-10 flex flex-col md:flex-row items-center gap-10 border border-gray-100 dark:border-gray-800">
+                <div class="md:w-1/3">
+                    <h3 class="text-2xl font-black mb-4 dark:text-white">RAC ITALY Reliability</h3>
+                    <p class="text-[#616b89] dark:text-gray-400 mb-6">Every hose is tested to exceed SAE and EN
+                        standards. Our multi-stage quality control ensures leak-proof performance in the toughest
+                        industrial environments.</p>
+                    <div class="flex gap-4">
+                        <div
+                            class="w-12 h-12 rounded bg-white dark:bg-gray-800 flex items-center justify-center shadow-sm font-black text-primary border border-gray-200 dark:border-gray-700 italic">
+                            ISO</div>
+                        <div
+                            class="w-12 h-12 rounded bg-white dark:bg-gray-800 flex items-center justify-center shadow-sm font-black text-primary border border-gray-200 dark:border-gray-700 italic">
+                            SAE</div>
+                        <div
+                            class="w-12 h-12 rounded bg-white dark:bg-gray-800 flex items-center justify-center shadow-sm font-black text-primary border border-gray-200 dark:border-gray-700 italic">
+                            DIN</div>
+                    </div>
+                </div>
+                <div class="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-8">
+                    <div class="flex gap-4">
+                        <span class="material-symbols-outlined text-primary">security</span>
+                        <div>
+                            <h4 class="font-bold mb-1 dark:text-white">Safety Tested</h4>
+                            <p class="text-sm text-[#616b89] dark:text-gray-400">Impulse tested to 1,000,000 cycles for
+                                maximum safety.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <span class="material-symbols-outlined text-primary">eco</span>
+                        <div>
+                            <h4 class="font-bold mb-1 dark:text-white">Eco-Fluid Ready</h4>
+                            <p class="text-sm text-[#616b89] dark:text-gray-400">Compatible with biodegradable oils and
+                                environmental fluids.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <span class="material-symbols-outlined text-primary">construction</span>
+                        <div>
+                            <h4 class="font-bold mb-1 dark:text-white">Precision Fittings</h4>
+                            <p class="text-sm text-[#616b89] dark:text-gray-400">Proprietary crimping technology for a
+                                perfect seal every time.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <span class="material-symbols-outlined text-primary">inventory_2</span>
+                        <div>
+                            <h4 class="font-bold mb-1 dark:text-white">Wholesale Stock</h4>
+                            <p class="text-sm text-[#616b89] dark:text-gray-400">Ready-to-ship inventory for large scale
+                                industrial projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer
+        class="bg-white dark:bg-background-dark border-t border-gray-200 dark:border-gray-800 py-12 px-4 md:px-10 lg:px-40">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+            <div>
+                <div class="flex items-center gap-3 text-primary mb-6">
+                    <div class="size-6">
+                        <svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z">
+                            </path>
+                            <path d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819Z"></path>
+                        </svg>
+                    </div>
+                    <h2 class="text-lg font-black dark:text-white">RAC ITALY</h2>
+                </div>
+                <p class="text-sm text-[#616b89] dark:text-gray-400 leading-relaxed">
+                    Engineering excellence in hydraulic solutions. Leading manufacturer and distributor of high-pressure
+                    hoses and components across Europe and the Middle East.
+                </p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6 dark:text-white">Solutions</h4>
+                <ul class="space-y-4 text-sm text-[#616b89] dark:text-gray-400">
+                    <li><a class="hover:text-primary transition-colors" href="#">Hydraulic Hoses</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="#">Pneumatic Tubes</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="#">Fittings &amp; Ferrules</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="#">Crimp Machinery</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6 dark:text-white">Services</h4>
+                <ul class="space-y-4 text-sm text-[#616b89] dark:text-gray-400">
+                    <li><a class="hover:text-primary transition-colors" href="#">24/7 Mobile Repair</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="#">On-site Installation</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="#">Technical Training</a></li>
+                    <li><a class="hover:text-primary transition-colors" href="#">Wholesale Program</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6 dark:text-white">Contact Us</h4>
+                <div class="space-y-4 text-sm text-[#616b89] dark:text-gray-400">
+                    <div class="flex items-start gap-3">
+                        <span class="material-symbols-outlined text-primary">location_on</span>
+                        <span>Via dell'Industria, 12<br />40138 Bologna BO, Italy</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="material-symbols-outlined text-primary">phone</span>
+                        <span>+39 051 123 4567</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="material-symbols-outlined text-primary">mail</span>
+                        <span>info@racitaly.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="border-t border-gray-100 dark:border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-xs text-[#616b89] dark:text-gray-500">© 2024 RAC ITALY S.p.A. All rights reserved.
+                Professional Hydraulic Engineering.</p>
+            <div class="flex gap-6">
+                <a class="text-xs text-[#616b89] hover:text-primary" href="#">Privacy Policy</a>
+                <a class="text-xs text-[#616b89] hover:text-primary" href="#">Terms of Service</a>
+                <a class="text-xs text-[#616b89] hover:text-primary" href="#">Cookie Settings</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Fixed Floating Contact for Conversion -->
+    <div class="fixed bottom-6 right-6 z-40 hidden md:block">
+        <button
+            class="bg-primary text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform group flex items-center gap-2">
+            <span class="material-symbols-outlined">chat</span>
+            <span
+                class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-300 font-bold whitespace-nowrap px-0 group-hover:px-2">Expert
+                Consult</span>
+        </button>
+    </div>
+</body>
+
+</html>
